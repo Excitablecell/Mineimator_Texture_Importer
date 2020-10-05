@@ -64,7 +64,7 @@ void find(char* lpPath, std::vector<std::string> &fileList)
 int main()
 {
 	srand(time(0));
-	cout << "欢迎使用Mine_imator贴图批量导入工具，本工具由亢体动画提供" << endl << endl;
+	cout << "欢迎使用Mi贴图批量导入工具，本工具由亢体动画提供" << endl << endl;
 	Sleep(2000);
 	cout << "在导入之前，请将所有贴图放入Mine_imator工程文件夹" << endl << endl;
 	Sleep(2000);
@@ -160,10 +160,8 @@ int main()
 	Sleep(1000);
 	cout<< "正在导入中………………" << endl << endl;
 	Sleep(1000);
-	cout << "上哔哩哔哩搜索：亢体动画，有精彩动画和详细教程等着你噢~~~:" << endl << endl;
 	Sleep(2000);
-	cout << "已成功导入！！！"  << endl << endl;
-	Sleep(1000);
+	cout << "导入完成！" << endl << endl;
 	system("pause");
 	return 0;
 }
